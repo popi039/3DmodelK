@@ -78,7 +78,7 @@ gltf.animations.forEach(function (clip) {
         action.play();
     } else if (clip.name === 'see2') { // 'see2'に変更
         action.loop = THREE.LoopRepeat; // 常に再生
-        action.timeScale = 0.3; // 速度を0.3倍に設定
+        action.timeScale = 0.5; // 速度を0.5倍に設定
         action.play();
     }
 });
